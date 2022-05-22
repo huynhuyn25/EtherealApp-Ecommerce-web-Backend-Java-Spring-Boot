@@ -62,7 +62,6 @@ public class OrderServiceImpl implements IOrderService{
                 List<ProductOrder> list = order1.getListProductOrder();
                 list.add(productOrder);
                 order1.setListProductOrder(list);
-                order1.setTotal(order1.getTotal()+product.getPrice()*soLuong);
                 product.setSoluongCon(product.getSoluongCon()-soLuong);
                 productRepository.save(product);
                 User user = order1.getUser();
