@@ -4,6 +4,7 @@ Ecommerce-web Backend Java Spring Boot
 + Công nghệ sử dụng: Java Spring Boot 
 + IDE: InteliJ 
 + Database: MySQL 
+
 Hướng dẫn cấu hình DB: Tạo 1 database trong MySQL --> Vào file .\EtherealApp\src\main\resources\application.properties
 
 ![image](https://user-images.githubusercontent.com/75941386/170670940-99abe877-65c8-4ee5-a4b9-9952955bc417.png)
